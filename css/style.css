@@ -1,0 +1,239 @@
+/* roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*main style*/
+
+html , body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 88%;
+    margin: auto;
+
+}
+
+.bg-dark {
+    background-color: #252a34;
+    color: #fff;
+
+}
+.bg-light{
+    background-color:rgb(233, 232, 232);
+    color: #fff;
+}
+.bg-primary{
+    background: color #88d9d6;
+    color: #fff;
+}
+
+
+.btn:hover{
+    background-color:rgb(175, 149, 146) ;
+
+}
+.box-shadow{
+    box-shadow: 0 0 3px #252a34;
+}
+.text-primary{
+    color:indianred;
+}
+.text-h2{
+    color: #88d9d6;
+}
+.text-center{
+    text-align: center;
+}
+.l-heading{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.lead{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.m-heading{
+    font-size: 30px;
+}
+    
+
+.py-1{
+    padding: 50px;
+
+}
+.p-1{
+    padding: 25px  ;
+}
+.btn{
+    background-color: #88d9d6;
+    color:black;
+    padding: 15px 32px;
+    border-radius: 5px;
+
+}
+.btn-dark{
+    background-color: #252a34;
+    color: #fff;
+
+}
+/*navbar*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navbar .logo img{
+    width: 88px;
+
+}
+  
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 16px;
+}
+#navbar ul li a:hover{
+    background-color: #88d9d6;
+    border-radius: 5px;
+}
+
+
+
+/*section:show*/
+#show{
+    background: indianred url(../img/k.jpg) no-repeat center
+    center/cover;
+    height: 100vh;
+    color: #fff;
+    
+}
+#show .show-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+    background-color: rgba(0,0,0, 0.8);
+}
+/*section:about*/
+#about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+#about .about-content div,
+#about .about-content img{
+    flex: 1;
+
+}
+#about .about-content img{
+    width: 50%;
+    margin-left: 20px;
+    border: #fff;
+}
+/*section:CTA*/
+#cta{
+    background: indianred url(../img/Top\ 25\ Exercises\ Header.png) no-repeat center
+    center/cover;
+    height:60vh;
+    color: #fff;
+}
+#cta .media{
+    display: flex;
+}
+#cta .cta-content{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+    background-color: rgba(0,0,0, 0.8)
+    
+}
+/*section:exercise*/
+#exercise {
+    color:black;
+   
+    
+}
+#exercise .boxes{
+    display:ruby-text;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+#exercice .boxes.box{
+    flex: 1;
+    padding: 1rem;
+}
+#exercise .boxes .box  img{
+    width: 100px;
+    background-color: #88d9d6;
+    padding: 1rem;
+    border-radius: 100%;}
+/*section:food*/
+#food {
+    color: black;
+    size: 35%;
+    
+}
+#food .boxes{
+    display: flex;
+}
+ #food .boxes.box{
+     background-color: #fff;
+     flex: 1;
+     border-radius: 5px;
+     margin-bottom: 5px;
+     padding: 10px;
+ }
+#food .boxes.box img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+/*section:contact*/
+#contact{
+    display: flex;
+   background-color: #88d9d6;
+}
+#contact .contact-us,
+#contact .contact-us img{
+    flex: 2,1;
+    height: 45%;
+}
+
+
+#contact .contact-us input,
+#contact .contact-us textarea{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-bottom: 16px;
+    outline: none;
+}
+
